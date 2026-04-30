@@ -75,6 +75,8 @@ def render():
             t, N, obj_color, mat_id = scene_intersect(ro, rd)
             # ... 材质分支处理
 ```
+【效果演示】
+<img width="800" height="656" alt="20260430_201517-ezgif com-video-to-gif-converter" src="https://github.com/user-attachments/assets/bd198019-0c27-463a-866a-25b5de089ccf" />
 
 ***
 
@@ -137,4 +139,8 @@ pixels[i, j] = color_sum / sample_count  # 颜色平均
 **新增控件**：
 
 - **MSAA Samples**：设置每像素采样次数（1-16）
+【效果演示】
+<img width="800" height="656" alt="20260430_202525-ezgif com-optimize" src="https://github.com/user-attachments/assets/b879e05c-d67a-44ff-920e-9a007ce10f23" />
+
+
 
